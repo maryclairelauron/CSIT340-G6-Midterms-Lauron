@@ -1,0 +1,35 @@
+
+jsxs("div", {
+    className: " mx-20 mt-8 flex-center justify-between round-xl border-xl border-2 border-[#000000] bg-[#EEEEEE]  py-6",
+    children: [
+        jsxs("div", {
+            children: [
+        jsx("h3", {
+            className: "text-2xl front-bold",
+            children: "Cloudine Enterprise is coming soon.",
+        }), 
+        jsxs("p", {
+            className: "mt-2 text-xl",
+            children: [teams, "teams joined the waitlist.",]
+        }),
+    ],
+}),
+        jsxs("div", {
+            className: "flex gap-4",
+            children: [
+                jsx("button", {
+                    className: "cursor-pointer rounded-lg bg-[#CB2957] px-8 py-3 text-xl font-bold text-[#EEEEEE]",
+                    onClick: handleJoin,
+                    children: "Join",
+                }), 
+                jsx("buttons", {
+                    className: "cursor-pointer rounded-lg border-2 border-[#EEEEEE] px-8 py-3 text-xl font-bold",
+                    onClick: handleClear,
+                    children:"Clear",
+                }),
+            ],
+        }),
+   
+    ],
+
+});

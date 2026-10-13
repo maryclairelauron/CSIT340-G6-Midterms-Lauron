@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Navbar from "./components/Navbar";
+
 
 function App() {
   const [seats, setSeats] = useState(1);
@@ -19,14 +21,7 @@ function App() {
 
   return (
     <div className="flex min-h-screen flex-col bg-[#DDDDDD] text-[#000000]">
-      <nav className="flex items-center justify-between border-b border-[#CB2957] bg-[#000000] px-20 py-6 text-[#EEEEEE]">
-        <h1 className="text-3xl font-bold">Cloudline</h1>
-        <ul className="flex gap-10 text-xl">
-          <li>Product</li>
-          <li>Pricing</li>
-          <li>Support</li>
-        </ul>
-      </nav>
+      <Navbar />
 
       <div className="flex items-end justify-between bg-[#000000] px-20 py-12 text-[#EEEEEE]">
         <header>
@@ -101,7 +96,8 @@ function App() {
         </div>
       </main>
 
-      <footer className="mt-auto bg-[#000000] px-20 py-6 text-center text-xl text-[#EEEEEE]">
+
+    <footer className="mt-auto bg-[#000000] px-20 py-6 text-center text-xl text-[#EEEEEE]">
         <p>All plans are billed per seat, every month.</p>
       </footer>
     </div>
@@ -109,3 +105,4 @@ function App() {
 }
 
 export default App;
+
