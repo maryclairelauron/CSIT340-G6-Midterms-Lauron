@@ -29,7 +29,7 @@ function App() {
           <p className="mt-4 text-3xl text-[#CB2957]">
             Seats: {seats} | Months: {months}
           </p>
-          <p className="mt-2 text-xl">Quote for MARY CLAIRE D. LAURON</p>
+          <p className="mt-2 text-xl">Quote for MARY CLAIRE DELA TORRE LAURON</p>
         </header>
 
         <div className="flex gap-4">
@@ -89,7 +89,7 @@ function App() {
               <li className="border-t border-[#DDDDDD] py-2">1000 GB storage</li>
               <li className="border-t border-[#DDDDDD] py-2">Phone support</li>
             </ul>
-          </div>
+          </div>7
           <p className="bg-[#000000] px-8 py-5 text-3xl font-bold text-[#EEEEEE]">
             Total: PHP {999 * seats * months}
           </p>
